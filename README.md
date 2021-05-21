@@ -5,10 +5,10 @@ Simple tool to create a dataset from a collections of images using darknet suppo
 ## How to build the project
 
 ```
-git clone https://github.com/cscribano/AIC_2021_T5
-cd AIC_2021_T5
+git clone https://github.com/mive93/datasetGen
+cd datasetGen
 git submodule update --init --recursive
-cd augment/darknet/
+cd darknet/
 ```
 
 Open the Makefile and set the following values to 1:
