@@ -1,32 +1,10 @@
-# Prerequisites
-*.d
+#Python
+__pycache__/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+#darknet
+*.weights
 *.so
-*.dylib
-*.dll
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+#repo specific
+dataset.txt
+labels/
