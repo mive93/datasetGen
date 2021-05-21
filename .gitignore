@@ -8,3 +8,5 @@ __pycache__/
 #repo specific
 dataset.txt
 labels/
+images/
+*.png

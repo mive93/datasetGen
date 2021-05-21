@@ -15,7 +15,7 @@ import copy
 
 def parser():
     parser = argparse.ArgumentParser(description="YOLO Object Detection Data Generation")
-    parser.add_argument("--dataset_location", type=str, default="/home/micaela/Pictures/modena/masa",
+    parser.add_argument("--dataset_location", type=str, default="images",
                         help="image to annotate folder path")
     parser.add_argument("--outdir", type=str, default="labels",
                         help="folder where to write the labels")
